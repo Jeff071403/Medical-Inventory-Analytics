@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory Analytics</title>
+  <link rel="stylesheet" href="/static/analytics.css">
+  <style>
+    /* ---------- GLOBAL STYLES ---------- */
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0 10px;
+      font-size: 28px;
+      color: #2c3e50;
+    }
+
+    /* ---------- HOME BUTTON ---------- */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+
+    .home-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .home-btn:hover {
+      background-color: #45a049;
+    }
+
+    /* ---------- DASHBOARD LAYOUT ---------- */
+    .dashboard {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-evenly;
+    }
+
+    .form-card {
+      background: #fff;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      flex: 1 1 220px;
+      min-width: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      transition: 0.3s;
+    }
+
+    .form-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    label {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    select, button {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    button[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      font-weight: 600;
+      border: none;
+      margin-top: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    /* ---------- CHART SECTION ---------- */
+    .chart-output {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 30px;
+      color: #2c3e50;
+    }
+
+    /* ---------- RESPONSIVE DESIGN ---------- */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 24px;
+      }
+      .form-row {
+        flex-direction: column;
+        align-items: center;
+      }
+      .form-card {
+        width: 90%;
+      }
+      .top-bar {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .home-btn {
+        font-size: 13px;
+        padding: 6px 14px;
+      }
+      label {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Top Navigation Bar -->
+  <div class="top-bar">
+    <form action="{{ url_for('home') }}" method="get">
+      <button type="submit" class="home-btn">🏠 Home</button>
+    </form>
+  </div>
+
+  <h1>Inventory Analytics</h1>
+
+  <div class="dashboard">
+    <div class="form-row">
+      <!-- Stock & Category Analytics -->
+      <form method="POST" action="/analyze" class="form-card">
+        <label for="filter">Choose a Category:</label>
+        <select name="filter" id="filter">
+          <option value="all">All Categories</option>
+          {% for category in categories %}
+            <option value="{{ category }}">{{ category.title() }}</option>
+          {% endfor %}
+          <option value="top5">Top 5 Most Stocked Medicines</option>
+        </select>
+        <button type="submit">Fetch</button>
+      </form>
+
+      <!-- Pie Charts Dropdown -->
+      <form method="POST" action="/piecharts" class="form-card">
+        <label for="pie_filter">Pie Charts:</label>
+        <select name="pie_filter" id="pie_filter">
+          <option value="category_share">Category-wise Stock Distribution</option>
+          <option value="manufacturer_share">Manufacturer Market Share</option>
+        </select>
+        <button type="submit">Show</button>
+      </form>
+
+      <!-- Trends Dropdown -->
+      <form method="POST" action="/trends" class="form-card">
+        <label for="trend_filter">Trends:</label>
+        <select name="trend_filter" id="trend_filter">
+          <option value="sales">Sales Trend</option>
+          <option value="purchases">Purchase Trend</option>
+        </select>
+        <button type="submit">View Trend</button>
+      </form>
+
+      <!-- Data Intensity Dropdown -->
+      <form method="POST" action="/intensity" class="form-card">
+        <label for="intensity_filter">Data Intensity:</label>
+        <select name="intensity_filter" id="intensity_filter">
+          <option value="category_sales">Category vs. Sales Density</option>
+          <option value="vendor_supply">Vendor vs. Supply Density</option>
+        </select>
+        <button type="submit">Show</button>
+      </form>
+    </div>
+
+    {% if message %}
+      <p style="color: red; text-align: center; margin-top: 15px;">{{ message }}</p>
+    {% endif %}
+
+    {% if chart_data %}
+      <h3>Analytics Chart</h3>
+      <div class="chart-output">
+        <img src="data:image/png;base64,{{ chart_data }}" alt="Analytics Chart">
+      </div>
+
+      <!-- 🔹 Back to Home Button -->
+      <div style="text-align:center; margin-top:25px;">
+        <form action="{{ url_for('home') }}" method="get">
+          <button type="submit" class="home-btn">🏠 Back to Home</button>
+        </form>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>

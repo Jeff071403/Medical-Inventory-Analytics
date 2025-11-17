@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vendor & Manufacturer Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding-bottom: 40px;
+        }
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #34495e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        a.home-button {
+            display: block;
+            width: 120px;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px 15px;
+            background: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        a.home-button:hover {
+            background: #1abc9c;
+        }
+        .empty-message {
+            text-align: center;
+            font-size: 1.1em;
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="/" class="home-button">🏠 Home</a>
+
+    <h1>Vendor Supply Analysis</h1>
+
+    {% if vendor_supply %}
+    <table>
+        <tr>
+            <th>Vendor</th>
+            <th>Total Quantity Supplied</th>
+        </tr>
+        {% for row in vendor_supply %}
+        <tr>
+            <td>{{ row.vendor_name }}</td>
+            <td>{{ row.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="empty-message">No vendor supply data available.</p>
+    {% endif %}
+
+    <h1>Manufacturer Market Share</h1>
+
+    {% if manufacturer_share %}
+    <table>
+        <tr>
+            <th>Manufacturer</th>
+            <th>Total Units Sold</th>
+        </tr>
+        {% for row in manufacturer_share %}
+        <tr>
+            <td>{{ row.manufacturer }}</td>
+            <td>{{ row.total_sold }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="empty-message">No manufacturer data available.</p>
+    {% endif %}
+
+</body>
+</html>

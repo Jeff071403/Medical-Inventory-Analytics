@@ -1,0 +1,295 @@
+medicine_id,name,category,manufacturer,batch_number,purchase_date,expiry_date,quantity,purchase_price,selling_price,vendor_name,min_stock_threshold,total_sold,last_sold_date,status
+1,Cetirizine,Injection,Cipla,B1948,2025-05-01,2026-04-18,146,12.74,15.34,PharmaDepot,16,17,2025-05-12,Active
+2,Aspirin,Injection,Sun Pharma,B6158,2024-09-19,2026-01-24,53,33.31,41.99,WellnessCorp,27,22,2024-12-11,Active
+3,Ibuprofen 200mg,Syrup,Cipla,B7749,2024-11-25,2026-07-29,112,17.89,24.39,MediLink,30,58,2025-05-12,Active
+4,Loratadine,Tablet,Sun Pharma,B4974,2025-02-02,2027-01-04,32,13.26,15.26,MediLink,15,3,2025-02-23,Active
+5,Vitamin D3,Syrup,Zydus,B1405,2024-08-11,2025-04-14,84,35.7,51.18,HealthHub,28,42,2024-10-25,Expired
+6,Cetirizine,Tablet,Cipla,B4218,2025-03-09,2026-12-03,1,31.43,35.05,HealthHub,14,0,,Active
+7,Cough Syrup,Injection,Sun Pharma,B3253,2024-10-02,2025-08-18,17,13.09,18.97,WellnessCorp,10,6,2024-11-19,Near Expiry
+8,Antacid Gel,Injection,Dr. Reddy,B2185,2025-03-22,2026-06-28,36,25.78,34.8,HealthHub,22,34,2025-06-10,Active
+9,Cough Syrup,Tablet,Cipla,B3427,2025-02-23,2026-06-01,56,46.79,67.63,MediLink,19,53,2025-07-02,Active
+10,Multivitamin,Capsule,Zydus,B2000,2025-04-06,2026-05-09,171,40.33,58.48,MediLink,23,37,2025-05-14,Active
+11,Ibuprofen 200mg,Injection,Cipla,B2336,2025-05-10,2025-09-27,129,43.23,55.15,HealthHub,20,79,2025-06-25,Active
+12,Ibuprofen 200mg,Tablet,Lupin,B6816,2025-03-04,2025-11-27,6,6.69,8.28,HealthHub,28,0,,Active
+13,Cough Syrup,Syrup,Zydus,B3640,2025-04-18,2027-03-28,72,38.12,48.05,PharmaDepot,24,11,2025-06-08,Active
+14,Paracetamol 500mg,Syrup,Lupin,B7313,2024-12-28,2025-06-21,140,8.14,10.49,PharmaDepot,11,61,2025-03-23,Expired
+15,Cetirizine,Syrup,Sun Pharma,B7681,2024-07-15,2025-12-01,55,41.86,58.53,MediLink,24,16,2024-12-22,Active
+16,Cough Syrup,Tablet,Lupin,B7199,2025-03-16,2025-08-06,140,19.02,24.09,HealthHub,19,133,2025-03-23,Near Expiry
+17,Cough Syrup,Injection,Sun Pharma,B2515,2025-05-31,2026-04-25,110,36.01,52.54,WellnessCorp,30,22,2025-07-05,Active
+18,Ibuprofen 200mg,Injection,Lupin,B1787,2025-05-28,2025-10-31,64,11.17,13.77,PharmaDepot,15,47,2025-07-04,Active
+19,Multivitamin,Capsule,Lupin,B4710,2024-12-11,2025-11-27,22,19.79,27.16,HealthHub,29,10,2025-04-18,Active
+20,Vitamin D3,Injection,Cipla,B4349,2024-11-08,2026-05-01,139,28.89,31.96,WellnessCorp,16,50,2025-05-29,Active
+21,Ibuprofen 200mg,Injection,Dr. Reddy,B5211,2024-08-10,2026-03-21,67,15.02,21.82,WellnessCorp,15,58,2024-10-30,Active
+22,Loratadine,Tablet,Zydus,B6812,2025-05-24,2026-12-24,75,16.6,21.21,WellnessCorp,16,10,2025-06-20,Active
+23,Multivitamin,Tablet,Cipla,B8850,2024-10-03,2025-05-09,49,48.4,56.28,WellnessCorp,25,27,2025-04-13,Expired
+24,Ibuprofen 200mg,Tablet,Sun Pharma,B8836,2025-05-13,2026-03-06,107,36.4,50.6,WellnessCorp,22,18,2025-05-21,Active
+25,Loratadine,Syrup,Sun Pharma,B7864,2025-01-24,2026-05-15,179,48.84,59.88,PharmaDepot,30,100,2025-02-13,Active
+26,Paracetamol 500mg,Injection,Lupin,B4220,2025-02-03,2025-09-29,56,40.57,45.54,PharmaDepot,18,26,2025-05-19,Active
+27,Aspirin,Injection,Lupin,B6445,2024-08-06,2025-05-29,133,46.14,66.43,PharmaDepot,30,12,2025-02-27,Expired
+28,Ibuprofen 200mg,Injection,Cipla,B1739,2025-05-31,2026-09-03,57,15.18,22.01,WellnessCorp,20,32,2025-06-19,Active
+29,Amoxicillin 250mg,Capsule,Cipla,B6718,2025-05-24,2026-04-15,65,21.03,24.61,MediLink,13,7,2025-06-02,Active
+30,Multivitamin,Syrup,Sun Pharma,B3929,2025-05-03,2026-03-21,199,5.22,7.28,PharmaDepot,18,129,2025-06-21,Active
+31,Loratadine,Injection,Zydus,B4137,2024-09-20,2025-07-03,96,45.54,56.58,HealthHub,30,65,2024-11-24,Expired
+32,Paracetamol 500mg,Syrup,Sun Pharma,B5545,2024-10-05,2026-08-06,24,9.96,13.4,WellnessCorp,15,2,2025-02-23,Active
+33,Amoxicillin 250mg,Tablet,Cipla,B7373,2025-05-28,2026-06-21,174,43.02,52.28,PharmaDepot,22,116,2025-05-31,Active
+34,Antacid Gel,Injection,Sun Pharma,B3929,2025-03-24,2027-01-05,17,12.31,14.89,HealthHub,30,10,2025-05-08,Active
+35,Loratadine,Tablet,Lupin,B7996,2025-02-02,2025-12-03,194,37.72,52.73,HealthHub,27,132,2025-06-18,Active
+36,Aspirin,Tablet,Zydus,B3189,2024-09-01,2026-01-04,115,37.78,45.6,PharmaDepot,11,63,2025-02-28,Active
+37,Antacid Gel,Injection,Zydus,B7707,2025-01-14,2025-09-29,94,28.08,34.71,HealthHub,12,93,2025-05-02,Active
+38,Aspirin,Syrup,Sun Pharma,B4733,2024-11-11,2026-09-11,68,5.47,6.66,PharmaDepot,19,6,2025-04-12,Active
+39,Aspirin,Injection,Dr. Reddy,B2952,2024-12-18,2026-06-07,63,48.58,62.91,MediLink,29,59,2024-12-31,Active
+40,Aspirin,Tablet,Cipla,B1301,2024-10-02,2025-02-24,192,43.62,56.74,WellnessCorp,16,180,2025-06-21,Expired
+41,Multivitamin,Syrup,Cipla,B1559,2024-12-23,2026-12-10,131,44.71,57.42,WellnessCorp,22,20,2024-12-28,Active
+42,Vitamin D3,Injection,Zydus,B7490,2024-07-29,2024-11-21,60,10.62,12.95,PharmaDepot,18,4,2025-05-12,Expired
+43,Antacid Gel,Capsule,Sun Pharma,B4136,2025-03-25,2026-07-22,182,5.22,7.82,HealthHub,19,144,2025-05-04,Active
+44,Loratadine,Tablet,Lupin,B6592,2025-01-31,2026-05-10,112,7.43,8.53,HealthHub,17,26,2025-03-12,Active
+45,Paracetamol 500mg,Tablet,Sun Pharma,B7471,2025-03-29,2025-11-28,72,14.58,16.72,HealthHub,30,66,2025-05-08,Active
+46,Aspirin,Injection,Lupin,B3996,2025-01-27,2025-11-20,182,48.01,70.25,MediLink,16,57,2025-05-31,Active
+47,Aspirin,Injection,Zydus,B4815,2024-11-14,2026-03-03,45,46.44,52.18,MediLink,21,13,2025-03-08,Active
+48,Aspirin,Syrup,Sun Pharma,B4989,2025-01-23,2026-01-25,14,28.25,39.36,MediLink,14,8,2025-02-09,Active
+49,Loratadine,Tablet,Lupin,B1760,2025-01-31,2026-11-16,35,34.28,41.47,HealthHub,29,3,2025-07-06,Active
+50,Cough Syrup,Syrup,Zydus,B8230,2024-09-25,2026-09-06,125,46.4,64.24,MediLink,18,64,2024-11-11,Active
+51,Cough Syrup,Syrup,Cipla,B1468,2025-05-20,2027-01-22,14,21.61,25.39,WellnessCorp,14,1,2025-06-27,Active
+52,Loratadine,Tablet,Cipla,B4480,2025-01-11,2025-11-10,140,40.19,45.09,HealthHub,22,58,2025-04-23,Active
+53,Ibuprofen 200mg,Syrup,Sun Pharma,B4847,2025-04-14,2026-04-23,71,39.05,50.67,HealthHub,22,66,2025-06-01,Active
+54,Aspirin,Syrup,Lupin,B9073,2024-10-20,2026-02-25,118,13.65,19.71,MediLink,23,20,2024-11-03,Active
+55,Vitamin D3,Syrup,Dr. Reddy,B9794,2025-03-07,2027-01-13,175,21.96,30.46,PharmaDepot,22,103,2025-04-10,Active
+56,Loratadine,Capsule,Cipla,B1455,2025-03-25,2026-04-01,32,30.11,35.2,PharmaDepot,14,29,2025-03-29,Active
+57,Antacid Gel,Capsule,Dr. Reddy,B6585,2024-08-31,2025-02-11,25,19.58,27.01,WellnessCorp,10,25,2025-07-08,Expired
+58,Amoxicillin 250mg,Injection,Cipla,B5865,2024-12-03,2025-12-11,34,20.98,25.67,WellnessCorp,27,21,2025-02-25,Active
+59,Amoxicillin 250mg,Injection,Sun Pharma,B1702,2024-10-14,2025-09-01,180,32.57,40.07,HealthHub,25,77,2024-10-20,Near Expiry
+60,Paracetamol 500mg,Syrup,Lupin,B1099,2024-12-08,2026-06-22,180,35.68,51.34,PharmaDepot,30,146,2025-04-05,Active
+61,Cetirizine,Tablet,Sun Pharma,B2115,2025-03-01,2026-04-06,80,44.94,60.47,PharmaDepot,19,11,2025-03-27,Active
+62,Multivitamin,Injection,Dr. Reddy,B9679,2025-03-07,2027-02-13,193,24.5,35.9,PharmaDepot,10,108,2025-04-29,Active
+63,Cough Syrup,Capsule,Dr. Reddy,B1845,2024-08-02,2025-02-18,20,31.76,41.47,PharmaDepot,27,20,2025-06-16,Expired
+64,Cetirizine,Capsule,Lupin,B1101,2024-07-26,2025-06-22,197,45.96,55.93,HealthHub,12,125,2025-04-25,Expired
+65,Vitamin D3,Tablet,Lupin,B5832,2024-07-31,2024-11-19,112,22.67,25.41,WellnessCorp,10,46,2024-12-09,Expired
+66,Antacid Gel,Injection,Dr. Reddy,B8033,2025-06-12,2027-05-23,43,10.26,11.81,WellnessCorp,20,0,,Active
+67,Paracetamol 500mg,Injection,Lupin,B5311,2025-05-01,2025-11-25,177,45.57,56.45,HealthHub,20,68,2025-07-07,Active
+68,Loratadine,Injection,Zydus,B9360,2025-05-05,2026-09-21,69,7.2,8.63,MediLink,18,36,2025-06-11,Active
+69,Cetirizine,Capsule,Lupin,B5449,2025-04-28,2027-01-29,84,8.42,12.19,MediLink,21,42,2025-06-04,Active
+70,Antacid Gel,Syrup,Zydus,B6282,2024-07-16,2025-07-10,55,5.94,8.25,MediLink,17,0,,Expired
+71,Cough Syrup,Injection,Lupin,B2154,2024-11-11,2025-07-19,6,15.68,21.15,WellnessCorp,12,5,2025-06-11,Near Expiry
+72,Cetirizine,Tablet,Zydus,B6138,2024-10-05,2026-05-03,31,35.35,44.42,PharmaDepot,18,29,2024-12-28,Active
+73,Cetirizine,Injection,Cipla,B3285,2025-05-20,2026-03-17,155,7.66,11.31,PharmaDepot,29,155,2025-06-18,Active
+74,Amoxicillin 250mg,Tablet,Dr. Reddy,B6207,2025-04-03,2026-08-19,15,41.47,54.69,HealthHub,28,8,2025-05-24,Active
+75,Cough Syrup,Tablet,Zydus,B8724,2025-04-06,2025-10-09,101,27.88,39.42,PharmaDepot,19,88,2025-04-25,Active
+76,Vitamin D3,Capsule,Zydus,B7890,2024-12-11,2026-01-29,168,49.82,72.87,PharmaDepot,11,102,2025-04-18,Active
+77,Ibuprofen 200mg,Tablet,Sun Pharma,B5911,2024-11-03,2025-08-15,22,41.33,46.03,HealthHub,26,12,2025-01-04,Near Expiry
+78,Cetirizine,Tablet,Zydus,B8517,2025-03-16,2025-12-04,51,31.92,47.52,PharmaDepot,13,46,2025-05-06,Active
+79,Amoxicillin 250mg,Syrup,Cipla,B3529,2025-01-19,2026-05-24,198,11.65,15.86,PharmaDepot,14,33,2025-06-08,Active
+80,Multivitamin,Tablet,Cipla,B7764,2025-02-03,2026-04-12,80,24.43,34.56,HealthHub,30,1,2025-06-23,Active
+81,Cetirizine,Syrup,Sun Pharma,B8913,2024-10-01,2025-06-24,105,49.29,55.15,WellnessCorp,27,27,2024-10-09,Expired
+82,Paracetamol 500mg,Capsule,Lupin,B6918,2024-07-24,2025-07-31,44,23.74,30.31,PharmaDepot,28,36,2024-10-10,Near Expiry
+83,Aspirin,Capsule,Lupin,B6788,2025-02-10,2025-10-28,80,22.81,33.69,WellnessCorp,16,26,2025-03-17,Active
+84,Multivitamin,Capsule,Dr. Reddy,B1563,2025-01-13,2025-06-07,186,13.05,18.04,MediLink,25,17,2025-07-01,Expired
+85,Cetirizine,Capsule,Dr. Reddy,B1585,2025-01-25,2025-10-10,110,22.67,29.41,MediLink,21,68,2025-02-25,Active
+86,Cough Syrup,Injection,Dr. Reddy,B8760,2025-01-12,2025-06-30,125,29.16,35.48,WellnessCorp,17,9,2025-07-13,Expired
+87,Vitamin D3,Tablet,Lupin,B1302,2025-02-01,2025-07-10,179,48.41,61.45,WellnessCorp,26,14,2025-05-23,Expired
+88,Aspirin,Tablet,Zydus,B1863,2024-09-20,2025-03-07,151,31.19,40.33,PharmaDepot,12,14,2025-03-31,Expired
+89,Cetirizine,Capsule,Lupin,B4942,2025-03-01,2025-09-08,73,17.9,20.75,HealthHub,17,65,2025-03-20,Near Expiry
+90,Antacid Gel,Tablet,Lupin,B2770,2024-08-29,2026-02-17,98,28.38,37.05,PharmaDepot,22,73,2025-06-06,Active
+91,Vitamin D3,Tablet,Dr. Reddy,B9830,2024-11-30,2026-06-27,57,18.97,24.51,WellnessCorp,24,18,2024-12-11,Active
+92,Multivitamin,Syrup,Sun Pharma,B7911,2025-04-02,2025-10-06,174,14.23,19.94,PharmaDepot,14,81,2025-04-24,Active
+93,Antacid Gel,Syrup,Sun Pharma,B1439,2024-11-16,2026-08-31,58,8.25,11.92,PharmaDepot,27,28,2024-11-22,Active
+94,Cetirizine,Syrup,Cipla,B9595,2025-05-06,2026-06-17,180,36.54,43.47,HealthHub,14,170,2025-06-25,Active
+95,Multivitamin,Capsule,Sun Pharma,B7393,2024-10-16,2026-08-05,98,49.69,71.82,WellnessCorp,26,54,2024-12-26,Active
+96,Paracetamol 500mg,Capsule,Zydus,B6471,2024-09-08,2026-03-10,182,31.26,40.36,WellnessCorp,13,108,2024-12-27,Active
+97,Vitamin D3,Injection,Zydus,B9389,2025-04-22,2025-10-29,47,30.49,35.34,PharmaDepot,27,6,2025-06-24,Active
+98,Multivitamin,Capsule,Cipla,B1747,2024-12-26,2025-10-13,98,9.45,11.3,WellnessCorp,16,20,2025-01-29,Active
+1,Cetirizine,Injection,Cipla,B1948,2025-05-01,2026-04-18,146,12.74,15.34,PharmaDepot,16,17,2025-05-12,Active
+2,Aspirin,Injection,Sun Pharma,B6158,2024-09-19,2026-01-24,53,33.31,41.99,WellnessCorp,27,22,2024-12-11,Active
+3,Ibuprofen 200mg,Syrup,Cipla,B7749,2024-11-25,2026-07-29,112,17.89,24.39,MediLink,30,58,2025-05-12,Active
+4,Loratadine,Tablet,Sun Pharma,B4974,2025-02-02,2027-01-04,32,13.26,15.26,MediLink,15,3,2025-02-23,Active
+5,Vitamin D3,Syrup,Zydus,B1405,2024-08-11,2025-04-14,84,35.7,51.18,HealthHub,28,42,2024-10-25,Expired
+6,Cetirizine,Tablet,Cipla,B4218,2025-03-09,2026-12-03,1,31.43,35.05,HealthHub,14,0,,Active
+7,Cough Syrup,Injection,Sun Pharma,B3253,2024-10-02,2025-08-18,17,13.09,18.97,WellnessCorp,10,6,2024-11-19,Near Expiry
+8,Antacid Gel,Injection,Dr. Reddy,B2185,2025-03-22,2026-06-28,36,25.78,34.8,HealthHub,22,34,2025-06-10,Active
+9,Cough Syrup,Tablet,Cipla,B3427,2025-02-23,2026-06-01,56,46.79,67.63,MediLink,19,53,2025-07-02,Active
+10,Multivitamin,Capsule,Zydus,B2000,2025-04-06,2026-05-09,171,40.33,58.48,MediLink,23,37,2025-05-14,Active
+11,Ibuprofen 200mg,Injection,Cipla,B2336,2025-05-10,2025-09-27,129,43.23,55.15,HealthHub,20,79,2025-06-25,Active
+12,Ibuprofen 200mg,Tablet,Lupin,B6816,2025-03-04,2025-11-27,6,6.69,8.28,HealthHub,28,0,,Active
+13,Cough Syrup,Syrup,Zydus,B3640,2025-04-18,2027-03-28,72,38.12,48.05,PharmaDepot,24,11,2025-06-08,Active
+14,Paracetamol 500mg,Syrup,Lupin,B7313,2024-12-28,2025-06-21,140,8.14,10.49,PharmaDepot,11,61,2025-03-23,Expired
+15,Cetirizine,Syrup,Sun Pharma,B7681,2024-07-15,2025-12-01,55,41.86,58.53,MediLink,24,16,2024-12-22,Active
+16,Cough Syrup,Tablet,Lupin,B7199,2025-03-16,2025-08-06,140,19.02,24.09,HealthHub,19,133,2025-03-23,Near Expiry
+17,Cough Syrup,Injection,Sun Pharma,B2515,2025-05-31,2026-04-25,110,36.01,52.54,WellnessCorp,30,22,2025-07-05,Active
+18,Ibuprofen 200mg,Injection,Lupin,B1787,2025-05-28,2025-10-31,64,11.17,13.77,PharmaDepot,15,47,2025-07-04,Active
+19,Multivitamin,Capsule,Lupin,B4710,2024-12-11,2025-11-27,22,19.79,27.16,HealthHub,29,10,2025-04-18,Active
+20,Vitamin D3,Injection,Cipla,B4349,2024-11-08,2026-05-01,139,28.89,31.96,WellnessCorp,16,50,2025-05-29,Active
+21,Ibuprofen 200mg,Injection,Dr. Reddy,B5211,2024-08-10,2026-03-21,67,15.02,21.82,WellnessCorp,15,58,2024-10-30,Active
+22,Loratadine,Tablet,Zydus,B6812,2025-05-24,2026-12-24,75,16.6,21.21,WellnessCorp,16,10,2025-06-20,Active
+23,Multivitamin,Tablet,Cipla,B8850,2024-10-03,2025-05-09,49,48.4,56.28,WellnessCorp,25,27,2025-04-13,Expired
+24,Ibuprofen 200mg,Tablet,Sun Pharma,B8836,2025-05-13,2026-03-06,107,36.4,50.6,WellnessCorp,22,18,2025-05-21,Active
+25,Loratadine,Syrup,Sun Pharma,B7864,2025-01-24,2026-05-15,179,48.84,59.88,PharmaDepot,30,100,2025-02-13,Active
+26,Paracetamol 500mg,Injection,Lupin,B4220,2025-02-03,2025-09-29,56,40.57,45.54,PharmaDepot,18,26,2025-05-19,Active
+27,Aspirin,Injection,Lupin,B6445,2024-08-06,2025-05-29,133,46.14,66.43,PharmaDepot,30,12,2025-02-27,Expired
+28,Ibuprofen 200mg,Injection,Cipla,B1739,2025-05-31,2026-09-03,57,15.18,22.01,WellnessCorp,20,32,2025-06-19,Active
+29,Amoxicillin 250mg,Capsule,Cipla,B6718,2025-05-24,2026-04-15,65,21.03,24.61,MediLink,13,7,2025-06-02,Active
+30,Multivitamin,Syrup,Sun Pharma,B3929,2025-05-03,2026-03-21,199,5.22,7.28,PharmaDepot,18,129,2025-06-21,Active
+31,Loratadine,Injection,Zydus,B4137,2024-09-20,2025-07-03,96,45.54,56.58,HealthHub,30,65,2024-11-24,Expired
+32,Paracetamol 500mg,Syrup,Sun Pharma,B5545,2024-10-05,2026-08-06,24,9.96,13.4,WellnessCorp,15,2,2025-02-23,Active
+33,Amoxicillin 250mg,Tablet,Cipla,B7373,2025-05-28,2026-06-21,174,43.02,52.28,PharmaDepot,22,116,2025-05-31,Active
+34,Antacid Gel,Injection,Sun Pharma,B3929,2025-03-24,2027-01-05,17,12.31,14.89,HealthHub,30,10,2025-05-08,Active
+35,Loratadine,Tablet,Lupin,B7996,2025-02-02,2025-12-03,194,37.72,52.73,HealthHub,27,132,2025-06-18,Active
+36,Aspirin,Tablet,Zydus,B3189,2024-09-01,2026-01-04,115,37.78,45.6,PharmaDepot,11,63,2025-02-28,Active
+37,Antacid Gel,Injection,Zydus,B7707,2025-01-14,2025-09-29,94,28.08,34.71,HealthHub,12,93,2025-05-02,Active
+38,Aspirin,Syrup,Sun Pharma,B4733,2024-11-11,2026-09-11,68,5.47,6.66,PharmaDepot,19,6,2025-04-12,Active
+39,Aspirin,Injection,Dr. Reddy,B2952,2024-12-18,2026-06-07,63,48.58,62.91,MediLink,29,59,2024-12-31,Active
+40,Aspirin,Tablet,Cipla,B1301,2024-10-02,2025-02-24,192,43.62,56.74,WellnessCorp,16,180,2025-06-21,Expired
+41,Multivitamin,Syrup,Cipla,B1559,2024-12-23,2026-12-10,131,44.71,57.42,WellnessCorp,22,20,2024-12-28,Active
+42,Vitamin D3,Injection,Zydus,B7490,2024-07-29,2024-11-21,60,10.62,12.95,PharmaDepot,18,4,2025-05-12,Expired
+43,Antacid Gel,Capsule,Sun Pharma,B4136,2025-03-25,2026-07-22,182,5.22,7.82,HealthHub,19,144,2025-05-04,Active
+44,Loratadine,Tablet,Lupin,B6592,2025-01-31,2026-05-10,112,7.43,8.53,HealthHub,17,26,2025-03-12,Active
+45,Paracetamol 500mg,Tablet,Sun Pharma,B7471,2025-03-29,2025-11-28,72,14.58,16.72,HealthHub,30,66,2025-05-08,Active
+46,Aspirin,Injection,Lupin,B3996,2025-01-27,2025-11-20,182,48.01,70.25,MediLink,16,57,2025-05-31,Active
+47,Aspirin,Injection,Zydus,B4815,2024-11-14,2026-03-03,45,46.44,52.18,MediLink,21,13,2025-03-08,Active
+48,Aspirin,Syrup,Sun Pharma,B4989,2025-01-23,2026-01-25,14,28.25,39.36,MediLink,14,8,2025-02-09,Active
+49,Loratadine,Tablet,Lupin,B1760,2025-01-31,2026-11-16,35,34.28,41.47,HealthHub,29,3,2025-07-06,Active
+50,Cough Syrup,Syrup,Zydus,B8230,2024-09-25,2026-09-06,125,46.4,64.24,MediLink,18,64,2024-11-11,Active
+51,Cough Syrup,Syrup,Cipla,B1468,2025-05-20,2027-01-22,14,21.61,25.39,WellnessCorp,14,1,2025-06-27,Active
+52,Loratadine,Tablet,Cipla,B4480,2025-01-11,2025-11-10,140,40.19,45.09,HealthHub,22,58,2025-04-23,Active
+53,Ibuprofen 200mg,Syrup,Sun Pharma,B4847,2025-04-14,2026-04-23,71,39.05,50.67,HealthHub,22,66,2025-06-01,Active
+54,Aspirin,Syrup,Lupin,B9073,2024-10-20,2026-02-25,118,13.65,19.71,MediLink,23,20,2024-11-03,Active
+55,Vitamin D3,Syrup,Dr. Reddy,B9794,2025-03-07,2027-01-13,175,21.96,30.46,PharmaDepot,22,103,2025-04-10,Active
+56,Loratadine,Capsule,Cipla,B1455,2025-03-25,2026-04-01,32,30.11,35.2,PharmaDepot,14,29,2025-03-29,Active
+57,Antacid Gel,Capsule,Dr. Reddy,B6585,2024-08-31,2025-02-11,25,19.58,27.01,WellnessCorp,10,25,2025-07-08,Expired
+58,Amoxicillin 250mg,Injection,Cipla,B5865,2024-12-03,2025-12-11,34,20.98,25.67,WellnessCorp,27,21,2025-02-25,Active
+59,Amoxicillin 250mg,Injection,Sun Pharma,B1702,2024-10-14,2025-09-01,180,32.57,40.07,HealthHub,25,77,2024-10-20,Near Expiry
+60,Paracetamol 500mg,Syrup,Lupin,B1099,2024-12-08,2026-06-22,180,35.68,51.34,PharmaDepot,30,146,2025-04-05,Active
+61,Cetirizine,Tablet,Sun Pharma,B2115,2025-03-01,2026-04-06,80,44.94,60.47,PharmaDepot,19,11,2025-03-27,Active
+62,Multivitamin,Injection,Dr. Reddy,B9679,2025-03-07,2027-02-13,193,24.5,35.9,PharmaDepot,10,108,2025-04-29,Active
+63,Cough Syrup,Capsule,Dr. Reddy,B1845,2024-08-02,2025-02-18,20,31.76,41.47,PharmaDepot,27,20,2025-06-16,Expired
+64,Cetirizine,Capsule,Lupin,B1101,2024-07-26,2025-06-22,197,45.96,55.93,HealthHub,12,125,2025-04-25,Expired
+65,Vitamin D3,Tablet,Lupin,B5832,2024-07-31,2024-11-19,112,22.67,25.41,WellnessCorp,10,46,2024-12-09,Expired
+66,Antacid Gel,Injection,Dr. Reddy,B8033,2025-06-12,2027-05-23,43,10.26,11.81,WellnessCorp,20,0,,Active
+67,Paracetamol 500mg,Injection,Lupin,B5311,2025-05-01,2025-11-25,177,45.57,56.45,HealthHub,20,68,2025-07-07,Active
+68,Loratadine,Injection,Zydus,B9360,2025-05-05,2026-09-21,69,7.2,8.63,MediLink,18,36,2025-06-11,Active
+69,Cetirizine,Capsule,Lupin,B5449,2025-04-28,2027-01-29,84,8.42,12.19,MediLink,21,42,2025-06-04,Active
+70,Antacid Gel,Syrup,Zydus,B6282,2024-07-16,2025-07-10,55,5.94,8.25,MediLink,17,0,,Expired
+71,Cough Syrup,Injection,Lupin,B2154,2024-11-11,2025-07-19,6,15.68,21.15,WellnessCorp,12,5,2025-06-11,Near Expiry
+72,Cetirizine,Tablet,Zydus,B6138,2024-10-05,2026-05-03,31,35.35,44.42,PharmaDepot,18,29,2024-12-28,Active
+73,Cetirizine,Injection,Cipla,B3285,2025-05-20,2026-03-17,155,7.66,11.31,PharmaDepot,29,155,2025-06-18,Active
+74,Amoxicillin 250mg,Tablet,Dr. Reddy,B6207,2025-04-03,2026-08-19,15,41.47,54.69,HealthHub,28,8,2025-05-24,Active
+75,Cough Syrup,Tablet,Zydus,B8724,2025-04-06,2025-10-09,101,27.88,39.42,PharmaDepot,19,88,2025-04-25,Active
+76,Vitamin D3,Capsule,Zydus,B7890,2024-12-11,2026-01-29,168,49.82,72.87,PharmaDepot,11,102,2025-04-18,Active
+77,Ibuprofen 200mg,Tablet,Sun Pharma,B5911,2024-11-03,2025-08-15,22,41.33,46.03,HealthHub,26,12,2025-01-04,Near Expiry
+78,Cetirizine,Tablet,Zydus,B8517,2025-03-16,2025-12-04,51,31.92,47.52,PharmaDepot,13,46,2025-05-06,Active
+79,Amoxicillin 250mg,Syrup,Cipla,B3529,2025-01-19,2026-05-24,198,11.65,15.86,PharmaDepot,14,33,2025-06-08,Active
+80,Multivitamin,Tablet,Cipla,B7764,2025-02-03,2026-04-12,80,24.43,34.56,HealthHub,30,1,2025-06-23,Active
+81,Cetirizine,Syrup,Sun Pharma,B8913,2024-10-01,2025-06-24,105,49.29,55.15,WellnessCorp,27,27,2024-10-09,Expired
+82,Paracetamol 500mg,Capsule,Lupin,B6918,2024-07-24,2025-07-31,44,23.74,30.31,PharmaDepot,28,36,2024-10-10,Near Expiry
+83,Aspirin,Capsule,Lupin,B6788,2025-02-10,2025-10-28,80,22.81,33.69,WellnessCorp,16,26,2025-03-17,Active
+84,Multivitamin,Capsule,Dr. Reddy,B1563,2025-01-13,2025-06-07,186,13.05,18.04,MediLink,25,17,2025-07-01,Expired
+85,Cetirizine,Capsule,Dr. Reddy,B1585,2025-01-25,2025-10-10,110,22.67,29.41,MediLink,21,68,2025-02-25,Active
+86,Cough Syrup,Injection,Dr. Reddy,B8760,2025-01-12,2025-06-30,125,29.16,35.48,WellnessCorp,17,9,2025-07-13,Expired
+87,Vitamin D3,Tablet,Lupin,B1302,2025-02-01,2025-07-10,179,48.41,61.45,WellnessCorp,26,14,2025-05-23,Expired
+88,Aspirin,Tablet,Zydus,B1863,2024-09-20,2025-03-07,151,31.19,40.33,PharmaDepot,12,14,2025-03-31,Expired
+89,Cetirizine,Capsule,Lupin,B4942,2025-03-01,2025-09-08,73,17.9,20.75,HealthHub,17,65,2025-03-20,Near Expiry
+90,Antacid Gel,Tablet,Lupin,B2770,2024-08-29,2026-02-17,98,28.38,37.05,PharmaDepot,22,73,2025-06-06,Active
+91,Vitamin D3,Tablet,Dr. Reddy,B9830,2024-11-30,2026-06-27,57,18.97,24.51,WellnessCorp,24,18,2024-12-11,Active
+92,Multivitamin,Syrup,Sun Pharma,B7911,2025-04-02,2025-10-06,174,14.23,19.94,PharmaDepot,14,81,2025-04-24,Active
+93,Antacid Gel,Syrup,Sun Pharma,B1439,2024-11-16,2026-08-31,58,8.25,11.92,PharmaDepot,27,28,2024-11-22,Active
+94,Cetirizine,Syrup,Cipla,B9595,2025-05-06,2026-06-17,180,36.54,43.47,HealthHub,14,170,2025-06-25,Active
+95,Multivitamin,Capsule,Sun Pharma,B7393,2024-10-16,2026-08-05,98,49.69,71.82,WellnessCorp,26,54,2024-12-26,Active
+96,Paracetamol 500mg,Capsule,Zydus,B6471,2024-09-08,2026-03-10,182,31.26,40.36,WellnessCorp,13,108,2024-12-27,Active
+97,Vitamin D3,Injection,Zydus,B9389,2025-04-22,2025-10-29,47,30.49,35.34,PharmaDepot,27,6,2025-06-24,Active
+98,Multivitamin,Capsule,Cipla,B1747,2024-12-26,2025-10-13,98,9.45,11.3,WellnessCorp,16,20,2025-01-29,Active
+1,Cetirizine,Injection,Cipla,B1948,2025-05-01,2026-04-18,146,12.74,15.34,PharmaDepot,16,17,2025-05-12,Active
+2,Aspirin,Injection,Sun Pharma,B6158,2024-09-19,2026-01-24,53,33.31,41.99,WellnessCorp,27,22,2024-12-11,Active
+3,Ibuprofen 200mg,Syrup,Cipla,B7749,2024-11-25,2026-07-29,112,17.89,24.39,MediLink,30,58,2025-05-12,Active
+4,Loratadine,Tablet,Sun Pharma,B4974,2025-02-02,2027-01-04,32,13.26,15.26,MediLink,15,3,2025-02-23,Active
+5,Vitamin D3,Syrup,Zydus,B1405,2024-08-11,2025-04-14,84,35.7,51.18,HealthHub,28,42,2024-10-25,Expired
+6,Cetirizine,Tablet,Cipla,B4218,2025-03-09,2026-12-03,1,31.43,35.05,HealthHub,14,0,,Active
+7,Cough Syrup,Injection,Sun Pharma,B3253,2024-10-02,2025-08-18,17,13.09,18.97,WellnessCorp,10,6,2024-11-19,Near Expiry
+8,Antacid Gel,Injection,Dr. Reddy,B2185,2025-03-22,2026-06-28,36,25.78,34.8,HealthHub,22,34,2025-06-10,Active
+9,Cough Syrup,Tablet,Cipla,B3427,2025-02-23,2026-06-01,56,46.79,67.63,MediLink,19,53,2025-07-02,Active
+10,Multivitamin,Capsule,Zydus,B2000,2025-04-06,2026-05-09,171,40.33,58.48,MediLink,23,37,2025-05-14,Active
+11,Ibuprofen 200mg,Injection,Cipla,B2336,2025-05-10,2025-09-27,129,43.23,55.15,HealthHub,20,79,2025-06-25,Active
+12,Ibuprofen 200mg,Tablet,Lupin,B6816,2025-03-04,2025-11-27,6,6.69,8.28,HealthHub,28,0,,Active
+13,Cough Syrup,Syrup,Zydus,B3640,2025-04-18,2027-03-28,72,38.12,48.05,PharmaDepot,24,11,2025-06-08,Active
+14,Paracetamol 500mg,Syrup,Lupin,B7313,2024-12-28,2025-06-21,140,8.14,10.49,PharmaDepot,11,61,2025-03-23,Expired
+15,Cetirizine,Syrup,Sun Pharma,B7681,2024-07-15,2025-12-01,55,41.86,58.53,MediLink,24,16,2024-12-22,Active
+16,Cough Syrup,Tablet,Lupin,B7199,2025-03-16,2025-08-06,140,19.02,24.09,HealthHub,19,133,2025-03-23,Near Expiry
+17,Cough Syrup,Injection,Sun Pharma,B2515,2025-05-31,2026-04-25,110,36.01,52.54,WellnessCorp,30,22,2025-07-05,Active
+18,Ibuprofen 200mg,Injection,Lupin,B1787,2025-05-28,2025-10-31,64,11.17,13.77,PharmaDepot,15,47,2025-07-04,Active
+19,Multivitamin,Capsule,Lupin,B4710,2024-12-11,2025-11-27,22,19.79,27.16,HealthHub,29,10,2025-04-18,Active
+20,Vitamin D3,Injection,Cipla,B4349,2024-11-08,2026-05-01,139,28.89,31.96,WellnessCorp,16,50,2025-05-29,Active
+21,Ibuprofen 200mg,Injection,Dr. Reddy,B5211,2024-08-10,2026-03-21,67,15.02,21.82,WellnessCorp,15,58,2024-10-30,Active
+22,Loratadine,Tablet,Zydus,B6812,2025-05-24,2026-12-24,75,16.6,21.21,WellnessCorp,16,10,2025-06-20,Active
+23,Multivitamin,Tablet,Cipla,B8850,2024-10-03,2025-05-09,49,48.4,56.28,WellnessCorp,25,27,2025-04-13,Expired
+24,Ibuprofen 200mg,Tablet,Sun Pharma,B8836,2025-05-13,2026-03-06,107,36.4,50.6,WellnessCorp,22,18,2025-05-21,Active
+25,Loratadine,Syrup,Sun Pharma,B7864,2025-01-24,2026-05-15,179,48.84,59.88,PharmaDepot,30,100,2025-02-13,Active
+26,Paracetamol 500mg,Injection,Lupin,B4220,2025-02-03,2025-09-29,56,40.57,45.54,PharmaDepot,18,26,2025-05-19,Active
+27,Aspirin,Injection,Lupin,B6445,2024-08-06,2025-05-29,133,46.14,66.43,PharmaDepot,30,12,2025-02-27,Expired
+28,Ibuprofen 200mg,Injection,Cipla,B1739,2025-05-31,2026-09-03,57,15.18,22.01,WellnessCorp,20,32,2025-06-19,Active
+29,Amoxicillin 250mg,Capsule,Cipla,B6718,2025-05-24,2026-04-15,65,21.03,24.61,MediLink,13,7,2025-06-02,Active
+30,Multivitamin,Syrup,Sun Pharma,B3929,2025-05-03,2026-03-21,199,5.22,7.28,PharmaDepot,18,129,2025-06-21,Active
+31,Loratadine,Injection,Zydus,B4137,2024-09-20,2025-07-03,96,45.54,56.58,HealthHub,30,65,2024-11-24,Expired
+32,Paracetamol 500mg,Syrup,Sun Pharma,B5545,2024-10-05,2026-08-06,24,9.96,13.4,WellnessCorp,15,2,2025-02-23,Active
+33,Amoxicillin 250mg,Tablet,Cipla,B7373,2025-05-28,2026-06-21,174,43.02,52.28,PharmaDepot,22,116,2025-05-31,Active
+34,Antacid Gel,Injection,Sun Pharma,B3929,2025-03-24,2027-01-05,17,12.31,14.89,HealthHub,30,10,2025-05-08,Active
+35,Loratadine,Tablet,Lupin,B7996,2025-02-02,2025-12-03,194,37.72,52.73,HealthHub,27,132,2025-06-18,Active
+36,Aspirin,Tablet,Zydus,B3189,2024-09-01,2026-01-04,115,37.78,45.6,PharmaDepot,11,63,2025-02-28,Active
+37,Antacid Gel,Injection,Zydus,B7707,2025-01-14,2025-09-29,94,28.08,34.71,HealthHub,12,93,2025-05-02,Active
+38,Aspirin,Syrup,Sun Pharma,B4733,2024-11-11,2026-09-11,68,5.47,6.66,PharmaDepot,19,6,2025-04-12,Active
+39,Aspirin,Injection,Dr. Reddy,B2952,2024-12-18,2026-06-07,63,48.58,62.91,MediLink,29,59,2024-12-31,Active
+40,Aspirin,Tablet,Cipla,B1301,2024-10-02,2025-02-24,192,43.62,56.74,WellnessCorp,16,180,2025-06-21,Expired
+41,Multivitamin,Syrup,Cipla,B1559,2024-12-23,2026-12-10,131,44.71,57.42,WellnessCorp,22,20,2024-12-28,Active
+42,Vitamin D3,Injection,Zydus,B7490,2024-07-29,2024-11-21,60,10.62,12.95,PharmaDepot,18,4,2025-05-12,Expired
+43,Antacid Gel,Capsule,Sun Pharma,B4136,2025-03-25,2026-07-22,182,5.22,7.82,HealthHub,19,144,2025-05-04,Active
+44,Loratadine,Tablet,Lupin,B6592,2025-01-31,2026-05-10,112,7.43,8.53,HealthHub,17,26,2025-03-12,Active
+45,Paracetamol 500mg,Tablet,Sun Pharma,B7471,2025-03-29,2025-11-28,72,14.58,16.72,HealthHub,30,66,2025-05-08,Active
+46,Aspirin,Injection,Lupin,B3996,2025-01-27,2025-11-20,182,48.01,70.25,MediLink,16,57,2025-05-31,Active
+47,Aspirin,Injection,Zydus,B4815,2024-11-14,2026-03-03,45,46.44,52.18,MediLink,21,13,2025-03-08,Active
+48,Aspirin,Syrup,Sun Pharma,B4989,2025-01-23,2026-01-25,14,28.25,39.36,MediLink,14,8,2025-02-09,Active
+49,Loratadine,Tablet,Lupin,B1760,2025-01-31,2026-11-16,35,34.28,41.47,HealthHub,29,3,2025-07-06,Active
+50,Cough Syrup,Syrup,Zydus,B8230,2024-09-25,2026-09-06,125,46.4,64.24,MediLink,18,64,2024-11-11,Active
+51,Cough Syrup,Syrup,Cipla,B1468,2025-05-20,2027-01-22,14,21.61,25.39,WellnessCorp,14,1,2025-06-27,Active
+52,Loratadine,Tablet,Cipla,B4480,2025-01-11,2025-11-10,140,40.19,45.09,HealthHub,22,58,2025-04-23,Active
+53,Ibuprofen 200mg,Syrup,Sun Pharma,B4847,2025-04-14,2026-04-23,71,39.05,50.67,HealthHub,22,66,2025-06-01,Active
+54,Aspirin,Syrup,Lupin,B9073,2024-10-20,2026-02-25,118,13.65,19.71,MediLink,23,20,2024-11-03,Active
+55,Vitamin D3,Syrup,Dr. Reddy,B9794,2025-03-07,2027-01-13,175,21.96,30.46,PharmaDepot,22,103,2025-04-10,Active
+56,Loratadine,Capsule,Cipla,B1455,2025-03-25,2026-04-01,32,30.11,35.2,PharmaDepot,14,29,2025-03-29,Active
+57,Antacid Gel,Capsule,Dr. Reddy,B6585,2024-08-31,2025-02-11,25,19.58,27.01,WellnessCorp,10,25,2025-07-08,Expired
+58,Amoxicillin 250mg,Injection,Cipla,B5865,2024-12-03,2025-12-11,34,20.98,25.67,WellnessCorp,27,21,2025-02-25,Active
+59,Amoxicillin 250mg,Injection,Sun Pharma,B1702,2024-10-14,2025-09-01,180,32.57,40.07,HealthHub,25,77,2024-10-20,Near Expiry
+60,Paracetamol 500mg,Syrup,Lupin,B1099,2024-12-08,2026-06-22,180,35.68,51.34,PharmaDepot,30,146,2025-04-05,Active
+61,Cetirizine,Tablet,Sun Pharma,B2115,2025-03-01,2026-04-06,80,44.94,60.47,PharmaDepot,19,11,2025-03-27,Active
+62,Multivitamin,Injection,Dr. Reddy,B9679,2025-03-07,2027-02-13,193,24.5,35.9,PharmaDepot,10,108,2025-04-29,Active
+63,Cough Syrup,Capsule,Dr. Reddy,B1845,2024-08-02,2025-02-18,20,31.76,41.47,PharmaDepot,27,20,2025-06-16,Expired
+64,Cetirizine,Capsule,Lupin,B1101,2024-07-26,2025-06-22,197,45.96,55.93,HealthHub,12,125,2025-04-25,Expired
+65,Vitamin D3,Tablet,Lupin,B5832,2024-07-31,2024-11-19,112,22.67,25.41,WellnessCorp,10,46,2024-12-09,Expired
+66,Antacid Gel,Injection,Dr. Reddy,B8033,2025-06-12,2027-05-23,43,10.26,11.81,WellnessCorp,20,0,,Active
+67,Paracetamol 500mg,Injection,Lupin,B5311,2025-05-01,2025-11-25,177,45.57,56.45,HealthHub,20,68,2025-07-07,Active
+68,Loratadine,Injection,Zydus,B9360,2025-05-05,2026-09-21,69,7.2,8.63,MediLink,18,36,2025-06-11,Active
+69,Cetirizine,Capsule,Lupin,B5449,2025-04-28,2027-01-29,84,8.42,12.19,MediLink,21,42,2025-06-04,Active
+70,Antacid Gel,Syrup,Zydus,B6282,2024-07-16,2025-07-10,55,5.94,8.25,MediLink,17,0,,Expired
+71,Cough Syrup,Injection,Lupin,B2154,2024-11-11,2025-07-19,6,15.68,21.15,WellnessCorp,12,5,2025-06-11,Near Expiry
+72,Cetirizine,Tablet,Zydus,B6138,2024-10-05,2026-05-03,31,35.35,44.42,PharmaDepot,18,29,2024-12-28,Active
+73,Cetirizine,Injection,Cipla,B3285,2025-05-20,2026-03-17,155,7.66,11.31,PharmaDepot,29,155,2025-06-18,Active
+74,Amoxicillin 250mg,Tablet,Dr. Reddy,B6207,2025-04-03,2026-08-19,15,41.47,54.69,HealthHub,28,8,2025-05-24,Active
+75,Cough Syrup,Tablet,Zydus,B8724,2025-04-06,2025-10-09,101,27.88,39.42,PharmaDepot,19,88,2025-04-25,Active
+76,Vitamin D3,Capsule,Zydus,B7890,2024-12-11,2026-01-29,168,49.82,72.87,PharmaDepot,11,102,2025-04-18,Active
+77,Ibuprofen 200mg,Tablet,Sun Pharma,B5911,2024-11-03,2025-08-15,22,41.33,46.03,HealthHub,26,12,2025-01-04,Near Expiry
+78,Cetirizine,Tablet,Zydus,B8517,2025-03-16,2025-12-04,51,31.92,47.52,PharmaDepot,13,46,2025-05-06,Active
+79,Amoxicillin 250mg,Syrup,Cipla,B3529,2025-01-19,2026-05-24,198,11.65,15.86,PharmaDepot,14,33,2025-06-08,Active
+80,Multivitamin,Tablet,Cipla,B7764,2025-02-03,2026-04-12,80,24.43,34.56,HealthHub,30,1,2025-06-23,Active
+81,Cetirizine,Syrup,Sun Pharma,B8913,2024-10-01,2025-06-24,105,49.29,55.15,WellnessCorp,27,27,2024-10-09,Expired
+82,Paracetamol 500mg,Capsule,Lupin,B6918,2024-07-24,2025-07-31,44,23.74,30.31,PharmaDepot,28,36,2024-10-10,Near Expiry
+83,Aspirin,Capsule,Lupin,B6788,2025-02-10,2025-10-28,80,22.81,33.69,WellnessCorp,16,26,2025-03-17,Active
+84,Multivitamin,Capsule,Dr. Reddy,B1563,2025-01-13,2025-06-07,186,13.05,18.04,MediLink,25,17,2025-07-01,Expired
+85,Cetirizine,Capsule,Dr. Reddy,B1585,2025-01-25,2025-10-10,110,22.67,29.41,MediLink,21,68,2025-02-25,Active
+86,Cough Syrup,Injection,Dr. Reddy,B8760,2025-01-12,2025-06-30,125,29.16,35.48,WellnessCorp,17,9,2025-07-13,Expired
+87,Vitamin D3,Tablet,Lupin,B1302,2025-02-01,2025-07-10,179,48.41,61.45,WellnessCorp,26,14,2025-05-23,Expired
+88,Aspirin,Tablet,Zydus,B1863,2024-09-20,2025-03-07,151,31.19,40.33,PharmaDepot,12,14,2025-03-31,Expired
+89,Cetirizine,Capsule,Lupin,B4942,2025-03-01,2025-09-08,73,17.9,20.75,HealthHub,17,65,2025-03-20,Near Expiry
+90,Antacid Gel,Tablet,Lupin,B2770,2024-08-29,2026-02-17,98,28.38,37.05,PharmaDepot,22,73,2025-06-06,Active
+91,Vitamin D3,Tablet,Dr. Reddy,B9830,2024-11-30,2026-06-27,57,18.97,24.51,WellnessCorp,24,18,2024-12-11,Active
+92,Multivitamin,Syrup,Sun Pharma,B7911,2025-04-02,2025-10-06,174,14.23,19.94,PharmaDepot,14,81,2025-04-24,Active
+93,Antacid Gel,Syrup,Sun Pharma,B1439,2024-11-16,2026-08-31,58,8.25,11.92,PharmaDepot,27,28,2024-11-22,Active
+94,Cetirizine,Syrup,Cipla,B9595,2025-05-06,2026-06-17,180,36.54,43.47,HealthHub,14,170,2025-06-25,Active
+95,Multivitamin,Capsule,Sun Pharma,B7393,2024-10-16,2026-08-05,98,49.69,71.82,WellnessCorp,26,54,2024-12-26,Active
+96,Paracetamol 500mg,Capsule,Zydus,B6471,2024-09-08,2026-03-10,182,31.26,40.36,WellnessCorp,13,108,2024-12-27,Active
+97,Vitamin D3,Injection,Zydus,B9389,2025-04-22,2025-10-29,47,30.49,35.34,PharmaDepot,27,6,2025-06-24,Active
+98,Multivitamin,Capsule,Cipla,B1747,2024-12-26,2025-10-13,98,9.45,11.3,WellnessCorp,16,20,2025-01-29,Active

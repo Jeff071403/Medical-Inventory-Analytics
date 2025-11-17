@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Inventory</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MEDICAL INVENTORY</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('analytics') }}">Analytics</a></li>
+                <li><a href="{{url_for('prediction')}}">Prediction</a></li>
+                <li><a href="{{url_for('add')}}">Add record in db</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Welcome to the Medical Inventory Management System</h2>
+            <p>Track, predict, and analyze medical stock with ease and efficiency.</p>
+        </section>
+        <section class="features">
+    <div class="feature-card">
+        <h3>Real-time Analytics</h3>
+        <p>Monitor stock levels and trends with interactive charts.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Predictive Insights</h3>
+        <p>Uses machine learning  techniques to forecast medical inventory needs.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Inventory Management</h3>
+        <p>Track, update, and categorize inventory effortlessly.</p>
+    </div>
+</section>
+
+    </main>
+</body>
+</html>
