@@ -106,11 +106,6 @@ Expiry Risk Chart
 
 Overstock vs Understock comparison
 
-To display images, upload them in the repo and add like:
-
-![Inventory Trend](outputs/inventory_trend.png)
-
-
 🧠 Project Workflow
 
 Data Loading
@@ -125,7 +120,6 @@ Visualization
 
 Insight Generation
 
-(Optional) Predictive Analytics
 
 🌟 Features
 
