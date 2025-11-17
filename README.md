@@ -110,29 +110,6 @@ To display images, upload them in the repo and add like:
 
 ![Inventory Trend](outputs/inventory_trend.png)
 
-🚀 How to Run the Project
-
-Clone the repository
-
-git clone https://github.com/Jeff071403/Medical-Inventory-Analytics.git
-
-
-Navigate into the project
-
-cd Medical-Inventory-Analytics
-
-
-Install required libraries
-
-pip install -r requirements.txt
-
-
-Launch Jupyter Notebook
-
-jupyter notebook
-
-
-Open the notebook inside the notebooks/ folder and run all cells.
 
 🧠 Project Workflow
 
